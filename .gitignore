@@ -38,3 +38,20 @@ tags
 node_modules
 
 output_tutorial.*
+
+# Ignore images
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.svg
+
+# Ignore PDF files
+*.pdf
+
+# Ignorar Markdown files
+*.md
+
+# Ignorar HTML files
+*.html

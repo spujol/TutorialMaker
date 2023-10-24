@@ -1,0 +1,80 @@
+/* styles.css */
+
+html, body {
+    width: 1000px;
+    height: 800px;
+}
+
+
+/* Estilo para la portada */
+.title-page {
+    text-align: center;
+    margin-top: 200px;
+  }
+  
+  .title-page h1 {
+    font-size: 24px;
+  }
+  
+  .title-page .authors {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  /* Estilo para las diapositivas */
+  .steps {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .screenshot {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  
+  
+
+/* Estilos para el título */
+h1 {
+  color: royalblue;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Estilos para el autor */
+p.authors {
+  font-size: 16px;
+  color: gray;
+}
+
+/* Estilos para las diapositivas */
+/* Agrega estilos para la clase "slide" */
+.slide img.screenshot {
+    display: block; /* Esto convierte la imagen en un bloque para aplicar la alineación */
+    margin: 0 auto; /* Margen izquierdo y derecho automáticos para centrar horizontalmente */
+    max-width: 100%; /* Asegura que las imágenes se ajusten al contenedor */
+    height: auto; /* Mantén la proporción original de la imagen */
+    text-align: center; /* Alinea el texto al centro, pero puede no ser necesario para imágenes */
+    vertical-align: middle; /* Alinea verticalmente al centro */
+  }
+  
+  /* Estilo para el título de la diapositiva */
+  .slide h2 {
+    font-size: 30px; /* Tamaño de fuente del título de la diapositiva */
+    color: #333; /* Color del texto del título */
+  }
+  
+  /* Estilo para los pasos de la diapositiva */
+  .slide ul.steps {
+    list-style-type: disc; /* Puedes cambiar el tipo de marcador de la lista de pasos */
+    margin-left: 20px; /* Margen izquierdo para la lista de pasos */
+  }
+  
+  /* Estilo para las imágenes en la diapositiva */
+  .slide img.screenshot {
+    max-width: 100%; /* Asegura que las imágenes se ajusten al contenedor */
+    height: auto; /* Mantén la proporción original de la imagen */
+  }
+  
+  /* Otros estilos que desees agregar a tus diapositivas */
+  
