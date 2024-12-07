@@ -2,7 +2,7 @@
 
 ### Installation
 
-- Install the latest [Slicer Stable Release](https://download.slicer.org/) (currently Slicer-5.6.1);
+- Install [3D Slicer Stable Release version 5.6.1](https://download.slicer.org/) or [3D Slicer Preview Release version 5.7 or higher](https://download.slicer.org/) 
 - Clone or Download(clicking in the button in the image above) [this repository](https://github.com/SlicerLatinAmerica/TutorialMaker) to anywhere on your computer;
   ![image](https://github.com/SlicerLatinAmerica/TutorialMaker/assets/28208639/5f41e18a-f384-49f8-9551-b85eeecbf6b1)
 - Open 3D Slicer and drag-and-drop the `TutorialMaker` folder to the Slicer application window, click OK to "Add Python scripted modules...", and click yes to load the module
